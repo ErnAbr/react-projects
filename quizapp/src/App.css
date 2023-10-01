@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 1028px;
+  margin: 20px auto;
+  border: 1px dashed black;
+  padding: 35px;
+  background: linear-gradient(45deg, #fff9a5, #cfffb3, #a5ffd6);
+}
