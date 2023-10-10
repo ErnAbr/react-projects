@@ -1,0 +1,50 @@
+.myOrders-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.myOrders-card {
+  border: 1px dashed black;
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.myOrders-card p {
+  margin-bottom: 7px;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button-wrapper button {
+  width: 120px;
+  padding: 15px 10px;
+  font-size: large;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 500px) {
+  .button-wrapper button {
+    width: 75px;
+    padding: 5px;
+    font-size: smaller;
+  }
+
+  .myOrders-card p {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .myOrders-card {
+    max-width: 150px;
+  }
+}

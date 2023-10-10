@@ -1,0 +1,109 @@
+.toppings-styles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.topping-counter {
+  align-self: center;
+}
+
+.topping-styles label input {
+  width: 100px;
+  height: 100px;
+}
+
+.toppings-styles input,
+.pizza-size-container input {
+  margin-right: 15px;
+}
+.order-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pizza-size-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.pizza-size-container input {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+form p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+form button {
+  padding: 15px 25px;
+  font-size: larger;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.form button:active {
+  background-color: rgb(91, 91, 160);
+}
+
+.form-positionting {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-positioning {
+  align-self: end;
+}
+
+.discount-para {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 950px) {
+  .pizza-size-container {
+    justify-content: center;
+  }
+  .toppings-styles {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .toppings-styles {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .toppings-styles {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .toppings-styles {
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .toppings-styles {
+    max-width: 150px;
+  }
+}

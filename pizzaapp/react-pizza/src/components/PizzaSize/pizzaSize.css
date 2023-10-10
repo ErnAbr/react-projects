@@ -1,0 +1,27 @@
+.pizzaSize-container {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.size-label-styles {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.4em;
+}
+
+.size-label-styles img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .pizzaSize-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+}

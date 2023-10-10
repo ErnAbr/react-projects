@@ -1,0 +1,30 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4em;
+  margin-top: 15px;
+  height: 50px;
+  border-top: 1px solid black;
+}
+
+.footer-container div {
+  align-self: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-container {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .footer-container {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .footer-container {
+    font-size: 1em;
+  }
+}
