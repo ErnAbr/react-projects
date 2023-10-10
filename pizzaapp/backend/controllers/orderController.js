@@ -9,7 +9,7 @@ router.post("/calculate", async (req, res) => {
     const toppingPrice = orderData.toppings.length;
     let totalPrice = Number(orderData.size) + toppingPrice;
 
-    if (orderData.toppings.length >= 3) {
+    if (orderData.toppings.length >= 4) {
       totalPrice *= 0.9;
     }
 
